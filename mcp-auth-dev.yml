@@ -6,10 +6,9 @@
 
 spring:
   datasource:
-    data:
-      url: jdbc:mysql://localhost:3306/self_omp
-      username: root
-      password: 123456
+    url: jdbc:mysql://localhost:3306/self_omp
+    username: root
+    password: 123456
     data:
       url: jdbc:mysql://localhost:3306/jims-his
       username: root
