@@ -3,7 +3,7 @@ zuul:
   routes:
     mcp-auth:
       path: /auth/**
-      serviceId: mcp-auth1
+      serviceId: mcp-auth
 
 #urls:
 #  anon:
