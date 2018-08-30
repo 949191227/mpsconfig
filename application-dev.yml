@@ -24,13 +24,8 @@ spring:
       url: jdbc:mysql://localhost:3306/jims-his
       username: root
       password: 123456
-      
- eureka:
-  instance:
-    prefer-ip-address: true
-    lease-renewal-interval-in-seconds: 6
-    lease-expiration-duration-in-seconds: 20
-  client:
-    serviceUrl:
-      defaultZone: http://pig:gip6666@localhost:1025/eureka
-    registry-fetch-interval-seconds: 10
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
