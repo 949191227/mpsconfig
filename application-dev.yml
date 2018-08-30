@@ -15,7 +15,6 @@ spring:
     port: 6379
     password:
     
- spring:
   datasource:
     url: jdbc:mysql://localhost:3306/self_omp
     username: root
