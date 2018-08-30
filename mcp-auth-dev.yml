@@ -4,16 +4,16 @@
 
 # datasoure默认使用JDBC
 
-#spring:
-#  datasource:
-#    url: jdbc:mysql://localhost:3306/self_omp
-#    username: root
-#    password: 123456
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/self_omp
+    username: root
+    password: 123456
     
-#    data:
-#      url: jdbc:mysql://localhost:3306/jims-his
-#      username: root
-#      password: 123456
+    data:
+      url: jdbc:mysql://localhost:3306/jims-his
+      username: root
+      password: 123456
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
