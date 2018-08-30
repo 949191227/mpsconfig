@@ -28,7 +28,7 @@ spring:
  eureka:
   instance:
     prefer-ip-address: true
-    lease-renewal-interval-in-seconds: 5
+    lease-renewal-interval-in-seconds: 6
     lease-expiration-duration-in-seconds: 20
   client:
     serviceUrl:
